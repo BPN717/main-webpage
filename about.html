@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <img src="/logo.png" alt="">
+        <div class="nav-links" id="navlinks">
+            <i class="fas fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="courses.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+<i class="fas fa-bars" onclick="showmenu()"></i>
+    </nav>
+<h1>About Us</h1>
+    </section>
+
+
+<!------------------about us---------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world's biggest university</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus corporis velit minima aspernatur
+                animi accusantium reiciendis assumenda, similique vero repudiandae! Odit autem vitae accusantium quia
+                dolorum aliquam, pariatur quibusdam deserunt repellat quisquam adipisci et veritatis harum, dolor
+                beatae! Ducimus officiis voluptatum quo a distinctio asperiores ab nisi facere, neque aliquid!
+            </p>
+            <a href="" class="hero-btn red-btn" >EXPLORE NOW </a>
+        </div>
+        <div class="about-col">
+            <img src="/about.jpg" alt="">
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-----footer------------------------>
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium id quaerat, dolorem blanditiis <br> qui
+        debitis est eveniet architecto dolorum sunt quis, consequatur maiores, doloremque vitae ex ab atque. Laboriosam,
+        doloremque.</p>
+    <div class="icons">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    </div>
+    <p>Made with <i class="far fa-heart"></i> by Easy Tutorials </p>
+</section>
+
+
+
+
+<!-----javascript for toggle menu-->
+<script>
+    var navlinks = document.getElementById("naklinks");
+    function showmenu() {
+        navlinks.style.right = "0";
+    }
+
+    function hidemenu() {
+        navlinks.style.right = "-200";
+    }
+</script>
+</body>
+
+</html>
+
+
+
+
+
+
+    
+</body>
+</html>

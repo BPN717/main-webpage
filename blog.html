@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <img src="/logo.png" alt="">
+            <div class="nav-links" id="navlinks">
+                <i class="fas fa-times" onclick="hidemenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showmenu()"></i>
+        </nav>
+        <h1>Our Certificates & Online Programs For 2021</h1>
+    </section>
+
+
+    <!-------blog page content-------->
+<section class="blog-content">
+    <div class="row">
+<div class="blog-left">
+<img src="/certificate.jpg" alt="">
+<h2>Our Certificates & Online Programs For 2021</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro vero, enim, accusantium amet alias odit adipisci sit totam incidunt tempora delectus. Maxime temporibus sint id sit esse, velit iusto tenetur.
+</p> <br>
+<p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam voluptate error reprehenderit doloribus provident aut beatae cumque excepturi fugiat aperiam ad libero corrupti totam, similique officiis blanditiis quae obcaecati non. Debitis soluta saepe nisi recusandae. Pariatur ex repudiandae repellat, necessitatibus dolorum dolores dignissimos velit quasi explicabo numquam perferendis, beatae voluptatum, commodi rem veritatis mollitia qui asperiores illum amet reiciendis. Ea quas voluptatum perspiciatis similique mollitia autem impedit id incidunt et facilis aliquam unde natus nemo vero maxime eaque suscipit laborum dolores at aliquid perferendis, dolore nihil. In fugiat voluptas qui eveniet sapiente provident. Fugit nulla inventore voluptatum consectetur hic laborum </P><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad odio quis facere quidem dolore numquam! Laborum similique, officiis quia error explicabo optio, non doloremque accusantium consequuntur quibusdam ipsum ratione ut in molestias quisquam! Saepe nemo commodi dolores ex iusto nobis eaque eos, quas labore? Ipsum numquam quo, reiciendis fugit iure velit quis ducimus, sapiente sunt asperiores debitis iste dicta et!</p>
+<br> 
+
+<div class="comment-box">
+<h3>Leave a comment</h3>
+<form class="comment-form">
+<input type="name" placeholder="Enter Name">
+<input type="email" placeholder="Enter Email">
+<textarea  rows="5" placeholder="Your comment"></textarea>
+<button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+</form>
+</div>
+</div>
+<div class="blog-right">
+<h3>Post Categories</h3>
+<div>
+<span>Business Analytics</span>
+<span>21</span>
+</div>
+<div>
+    <span>Data Science</span>
+    <span>21</span>
+</div>
+<div>
+    <span>Machine Learning</span>
+    <span>21</span>
+</div>
+<div>
+    <span>Computer Science</span>
+    <span>21</span>
+    </div>
+    <div>
+        <span>Commerce</span>
+        <span>21</span>
+    </div>
+    <div>
+        <span>Journalism</span>
+        <span>21</span>
+    </div>
+</div>
+ </div>
+</section>
+
+
+
+
+
+
+    <!-----footer------------------------>
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium id quaerat, dolorem blanditiis <br> qui
+            debitis est eveniet architecto dolorum sunt quis, consequatur maiores, doloremque vitae ex ab atque. Laboriosam,
+            doloremque.</p>
+        <div class="icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-twitter"></i>
+        </div>
+        <p>Made with <i class="far fa-heart"></i> by Easy Tutorials </p>
+    </section>
+
+    <!-----javascript for toggle menu-->
+    <script>
+        var navlinks = document.getElementById("naklinks");
+        function showmenu() {
+            navlinks.style.right = "0";
+        }
+
+        function hidemenu() {
+            navlinks.style.right = "-200";
+        }
+    </script>
+    </body>
+    
+    </html>
